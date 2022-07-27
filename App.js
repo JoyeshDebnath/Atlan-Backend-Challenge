@@ -1,7 +1,7 @@
 //imports
 const express = require("express");
 const connectDB = require("./db/connect");
-
+const CollectRouters = require("./routes/CollectRouter");
 // imports
 const app = express();
 
@@ -11,7 +11,7 @@ require("dotenv").config();
 app.use(express.json());
 
 //Routes
-// app.use("/api/v1/Collect");
+app.use("/api/v1/collect", CollectRouters);
 const port = process.env.PORT || 8000;
 
 const start = async () => {
