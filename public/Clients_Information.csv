@@ -1,0 +1,36 @@
+_id,clientName,clientEmail,clientIncomePerMonth,clientSavingsPerMonth,clientMobileNum,clientAddress
+62e2271b837efe3392f4b72e,Joyesh Debnath,itsmejoyeshdebnath26@gmail.com,80000,30000,8584979439,"{
+  street: 'V-23/15/3 Vivekananda Park Road',
+  city: 'Kolkata',
+  state: 'West Bengal',
+  country: 'India',
+  pinCode: 700084
+}"
+62e22adbdd10304f036fa536,Kallani Debnath,kallanidebnath75@gmail.com,80000,3000,9804518712,"{
+  street: 'V-23/15/3 Vivekananda Park Road',
+  city: 'Kolkata',
+  state: 'West Bengal',
+  country: 'India',
+  pinCode: 700084
+}"
+62e22b77b0db41e67c7cd5e5,Biplob Debnath,Biplob75@gmail.com,80000,3000,9804518716,"{
+  street: 'V-23/15/3 Vivekananda Park Road',
+  city: 'Kolkata',
+  state: 'West Bengal',
+  country: 'India',
+  pinCode: 700084
+}"
+62e22b97b0db41e67c7cd5e7,Biplob Debnath,Biplob7512@gmail.com,80000,3000,890451871221,"{
+  street: 'V-23/15/3 Vivekananda Park Road',
+  city: 'Kolkata',
+  state: 'West Bengal',
+  country: 'India',
+  pinCode: 700084
+}"
+62e22dc9118c19f19de34ef6,Biplob Debnath,Biplob75123@gmail.com,80000,3000,1234567890,"{
+  street: 'V-23/15/3 Vivekananda Park Road',
+  city: 'Kolkata',
+  state: 'West Bengal',
+  country: 'India',
+  pinCode: 700084
+}"
