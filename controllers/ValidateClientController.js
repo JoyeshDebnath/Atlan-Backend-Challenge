@@ -20,6 +20,7 @@ const ValidateNewClient = async (req, res, next) => {
 				message: "Client monthly Savings Exceeds Client Months Income!",
 			});
 		}
+		// Phone number Validation
 		if (clientMobileNum.toString().length !== 10) {
 			return res.status(500).json({
 				status: "Failed",
@@ -36,13 +37,14 @@ const ValidateNewClient = async (req, res, next) => {
 			clientMobileNum,
 			clientAddress,
 		});
-
+		// send response
 		res.status(201).json({
 			status: "Success",
 			message: "Client  successfully created!",
 			newClient,
 		});
 	} catch (error) {
+		// validation error handling
 		if (error.name === "ValidationError") {
 			return res.status(500).json({
 				status: "Failed",
@@ -50,6 +52,7 @@ const ValidateNewClient = async (req, res, next) => {
 				issue: Object.values(error.errors).map((val) => val.message),
 			});
 		} else {
+			// other error handling (such as duplicate inputs ..)
 			return res.status(500).json({
 				status: "Failed",
 				message:
