@@ -34,3 +34,10 @@ _id,clientName,clientEmail,clientIncomePerMonth,clientSavingsPerMonth,clientMobi
   country: 'India',
   pinCode: 700084
 }"
+62e2722d575ada749d4cc35c,Kaustav Ganguly,kaustav123@gmail.com,80000,3000,1234567893,"{
+  street: 'V-23/15/3 Vivekananda Park Road',
+  city: 'Kolkata',
+  state: 'West Bengal',
+  country: 'India',
+  pinCode: 700084
+}"
