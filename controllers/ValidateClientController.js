@@ -17,7 +17,7 @@ const ValidateNewClient = async (req, res, next) => {
 			return res.status(500).json({
 				status: "Failed",
 				issue: "Client Income-savings Validation failed!",
-				message: "Client monthly Savings Exceeds Client Months Income!",
+				message: "Client monthly Savings Exceeds Client Monthly Income!",
 			});
 		}
 		// Phone number Validation
