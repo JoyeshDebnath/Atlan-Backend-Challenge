@@ -20,7 +20,7 @@ _id,clientName,clientEmail,clientIncomePerMonth,clientSavingsPerMonth,clientMobi
   country: 'India',
   pinCode: 700084
 }"
-62e22b97b0db41e67c7cd5e7,Biplob Debnath,Biplob7512@gmail.com,80000,3000,890451871221,"{
+62e22b97b0db41e67c7cd5e7,Biplob Debnath,Biplob7512@gmail.com,80000,3000,9123358108,"{
   street: 'V-23/15/3 Vivekananda Park Road',
   city: 'Kolkata',
   state: 'West Bengal',
@@ -34,10 +34,17 @@ _id,clientName,clientEmail,clientIncomePerMonth,clientSavingsPerMonth,clientMobi
   country: 'India',
   pinCode: 700084
 }"
-62e2722d575ada749d4cc35c,Kaustav Ganguly,kaustav123@gmail.com,80000,3000,1234567893,"{
-  street: 'V-23/15/3 Vivekananda Park Road',
+62e2bddfc314ef1be8900dd6,Kaustav Ganguly,kaustav123@gmail.com,70000,30000,8240590711,"{
+  street: 'V-23/15 Dum Dum',
   city: 'Kolkata',
   state: 'West Bengal',
   country: 'India',
-  pinCode: 700084
+  pinCode: 700090
+}"
+62e2c697df7766cfa7f7299e,Samridha Das,samridhadas782001@gmail.com,70000,30000,8017076478,"{
+  street: 'V-23/15 Dum Dum',
+  city: 'Kolkata',
+  state: 'West Bengal',
+  country: 'India',
+  pinCode: 700090
 }"
