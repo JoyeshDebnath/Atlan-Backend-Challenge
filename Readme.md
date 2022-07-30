@@ -54,8 +54,9 @@ I tried to give a illustration of the thought process below .
 
 ```Note : To create such type of Database the number of records could be very high and hence throughput will not be as required.```
 
+<img width="520" alt="task1_1" src="https://user-images.githubusercontent.com/75598588/181935845-7d9da874-02e2-4fc8-84a8-bc6c02082e8b.PNG">
 
-![task1 SS of db base dapproach ]()
+
 
 ### 📢Approach 2 (3rd Party API based ) 
 
@@ -113,7 +114,15 @@ Endpoint:
 ```for lang query we need to provide the codes like es fro Espaniol , nl for Danish etc Please refer the API doc link provided above for codes  ```
 ### 🎯Task 1 result and outputs 
 
-![task1 SS of db base dapproach ]()
+
+
+
+
+https://user-images.githubusercontent.com/75598588/181936270-4dc3a862-e392-4521-a552-585dd1850a2a.mp4
+
+
+
+
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
@@ -137,7 +146,10 @@ I have handled this testcase in a two step process as described below..
 - I have used try catch blocks to handle the errors occurring during validation so that correct response is sent to the Collect totake neccessary actions .
 - I will be fetching the data of the new client from the request body and running through the validations . Depending upon the validation result  required information will be sent to the Collect .  
 #### 🎯Below is the Screenshot of my Schema model 
-![task2 SS of client model code]()
+
+<img width="631" alt="task2_db" src="https://user-images.githubusercontent.com/75598588/181936351-35b2fa50-fa31-4d89-b048-aa6a9043d9d1.PNG">
+
+
 #### 🎯Below is the demo of the  client Model having data of all validated clients in Collect 
 
 
@@ -293,7 +305,22 @@ Endpoint:
 
 ### 📝Task 2 result and DEMO 🎞
 
-![task2 video of the  working  of validation  ]()
+
+
+
+
+https://user-images.githubusercontent.com/75598588/181936366-740a3239-175e-41ad-be21-8714975948b2.mp4
+
+
+
+
+
+https://user-images.githubusercontent.com/75598588/181936376-ec8be7c0-3fe5-4ca7-83e9-9f3cac342b20.mp4
+
+
+
+
+
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
@@ -315,8 +342,10 @@ The approach I used to solve this particular problem statement is discussed belo
 - I have used a npm package named `csv-writer` to write data in a local csv file 
 - I read the data from the model created local csv file and created rows heading  in csv file  using the collections keys.And the records of the csv file are the values of the keys . 
 
+```SS of the CSV file ```
 
-![ss of the csv file  ]()
+
+<img width="822" alt="test3_ss" src="https://user-images.githubusercontent.com/75598588/181936457-43065064-745c-4f18-a9a4-36a9eb3e0169.PNG">
 
  
 
@@ -377,8 +406,20 @@ Endpoint:
 
 ### 🎯Task 3 result and Demo 
 
-![task3 video of the  working  of validation  ]()
-![task3 image of the  working  of postman and csv file   ]()
+
+
+
+
+https://user-images.githubusercontent.com/75598588/181936469-a4043903-020a-4c2a-9c08-fa4b3bcbc28d.mp4
+
+
+
+
+
+https://user-images.githubusercontent.com/75598588/181936541-ab71302c-73b9-4d4e-9e58-3fbc3c11b667.mp4
+
+
+
 
 
 
@@ -478,9 +519,16 @@ const SendSMStoCustomer = async (req, res) => {
 
 ### 🖥Task 4 result and DEMO 
 
-![task4 video of the  working  of validation ie postman  ]()
-![task4 screenshot of the sent sms  ]()
 
+
+
+https://user-images.githubusercontent.com/75598588/181936583-a5adfa45-51f0-4d53-acd4-6cfaaf560c8e.mp4
+
+
+```the sms was sent successfully ```
+
+
+![task4_demo2](https://user-images.githubusercontent.com/75598588/181936615-4b71b841-2fe2-4c68-accd-f527935e2fdf.jpeg)
 
 
 ## 🔗Tech Stacks
@@ -518,6 +566,13 @@ I have also dockerised This application and below are the process how I achieved
 
 ```
 ### Docker Demo
+
+![dockerised1](https://user-images.githubusercontent.com/75598588/181936628-8ff3762f-e96f-40d4-a2cb-61eeb41adf11.jpeg)
+
+
+
+![dockerised2](https://user-images.githubusercontent.com/75598588/181936640-eba26f2c-d96a-40ac-96a8-12a46381f31a.jpeg)
+
 
 
 ## 🚁 Dployment 
