@@ -48,3 +48,17 @@ _id,clientName,clientEmail,clientIncomePerMonth,clientSavingsPerMonth,clientMobi
   country: 'India',
   pinCode: 700090
 }"
+62e43ce9cf56842adb7f6e1d,Akshit Ansh,Akshit2001@gmail.com,780000,300000,9804518719,"{
+  street: '23/8 ABC Block',
+  city: 'Ranchi',
+  state: 'Jharkhand',
+  country: 'India',
+  pinCode: 98000
+}"
+62e56749945e1bac536ef645,Amrit Singh Khola,Amrit2000@gmail.com,45000,3000,9845123456,"{
+  street: '2/4 AB road ',
+  city: 'Jhalandar',
+  state: 'Punjab',
+  country: 'India',
+  pinCode: 9400
+}"
