@@ -318,7 +318,8 @@ Endpoint:
 https://user-images.githubusercontent.com/75598588/181936366-740a3239-175e-41ad-be21-8714975948b2.mp4
 
 
-```Demo of  how  validations are being tested out against some test cases  ```
+```Demo of  how  validations are being tested out against some invalid  test cases  ```
+
 
 
 https://user-images.githubusercontent.com/75598588/181936376-ec8be7c0-3fe5-4ca7-83e9-9f3cac342b20.mp4
@@ -335,7 +336,7 @@ ________________________________________________________________________________
 
 > Problem Statement : 
 
-⦁	```A very common need for organizations is wanting all their data onto Google Sheets, wherein they could connect their CRM, and also generate graphs and charts offered by Sheets out of the box. In such cases, each response to the form becomes a row in the sheet, and questions in the form become columns```
+⦁	```A very common need for organizations is wanting all their data into Google Sheets, wherein they could connect their CRM, and also generate graphs and charts offered by Sheets out of the box. In such cases, each response to the form becomes a row in the sheet, and questions in the form become columns```
 
 ```After analysing the statement I am assuming that I have to build a middleware or controller to utilise the  data of the clients recieved in task2 and export in a sheet /csv etc so that in future it can be utilized by the Atlan team for data analysis or displaying graphs , insights etc . ```
  To solve this I have  came across two approches.. 
@@ -443,7 +444,7 @@ ________________________________________________________________________________
 
 ### 🎯Approach  
 
-I have handled this testcase in ystematic  process as described below..
+I have handled this testcase in systematic  process as described below..
 
 -  Firstly  I accepted the  user ID of the Customer (which I am assuming will be provided while sending request to the backend  ) passed through request params 
 
