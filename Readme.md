@@ -312,13 +312,13 @@ Endpoint:
 ### 📝Task 2 result and DEMO 🎞
 
 
-
+```Demo of accepting a client after validations ```
 
 
 https://user-images.githubusercontent.com/75598588/181936366-740a3239-175e-41ad-be21-8714975948b2.mp4
 
 
-
+```Demo of  how  validations are being tested out against some test cases  ```
 
 
 https://user-images.githubusercontent.com/75598588/181936376-ec8be7c0-3fe5-4ca7-83e9-9f3cac342b20.mp4
