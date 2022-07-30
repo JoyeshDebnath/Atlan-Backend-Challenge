@@ -10,17 +10,17 @@ In this Doc I am going to share all the approaches and solutions as well as thou
 
 ## Table Of Contents
 
- - [Folder Structure](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Installation Guide](https://github.com/matiassingers/awesome-readme)
- - [Task1 ](#Task-1)
--  [Task 2](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Task 3](https://github.com/matiassingers/awesome-readme)
- - [Task 4](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
--  [Tech Stack](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
--  [Dockerising](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
--  [Deployment Gide](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
--  [Dependencies](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
--  [Scalability And Performance Management](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [Folder Structure](#folder-structure)
+ - [Installation Guide](#installation-guide)
+-  [Task 1](#task-1)
+-  [Task 2](#task-2)
+ - [Task 3](#task-3)
+ - [Task 4](#task-4)
+-  [Tech Stack](#tech-stacks)
+-  [Dockerising](#dockerising)
+-  [Deployment Guide](#deployment)
+-  [Dependencies](#dependencies)
+-  [Scalability And Performance Management](#scalability-and-performance-management )
 
 
 
@@ -35,8 +35,13 @@ Clone This repo and follow the commands
 ```
 
 
+## Folder Structure
+
+<img width="423" alt="folder_tree" src="https://user-images.githubusercontent.com/75598588/181937162-1c9d9467-9c46-44cc-b89e-9b472fb14ffe.PNG">
+
+
     
-## 📝 Task 1 
+##  Task 1 
 
 > Problem Statement : 
 ⦁ ```One of our clients wanted to search for slangs (in local language) for an answer to a text question on the basis of cities (which was the answer to a different MCQ question)```
@@ -126,7 +131,7 @@ https://user-images.githubusercontent.com/75598588/181936270-4dc3a862-e392-4521-
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-## 🔗Task 2 👓 
+## Task 2 
 
 > Problem Statement : 
 ⦁ ```	A market research agency wanted to validate responses coming in against a set of business rules (eg. monthly savings cannot be more than monthly income) and send the response back to the data collector to fix it when the rules generate a flag ```
@@ -325,7 +330,7 @@ https://user-images.githubusercontent.com/75598588/181936376-ec8be7c0-3fe5-4ca7-
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
-## 🔗Task 3   
+##  Task 3   
 
 > Problem Statement : 
 
@@ -426,7 +431,7 @@ https://user-images.githubusercontent.com/75598588/181936541-ab71302c-73b9-4d4e-
 _________________________________________________________________________________________________________
 
 
-## 🔗Task 4 
+##  Task 4 
 
 > Problem Statement : 
 ⦁ ```⦁	A recent client partner wanted us to send an SMS to the customer whose details are collected in the response as soon as the ingestion was complete reliably. The content of the SMS consists of details of the customer, which were a part of the answers in the response. This customer was supposed to use this as a “receipt” for them having participated in the exercise.```
@@ -531,7 +536,7 @@ https://user-images.githubusercontent.com/75598588/181936583-a5adfa45-51f0-4d53-
 ![task4_demo2](https://user-images.githubusercontent.com/75598588/181936615-4b71b841-2fe2-4c68-accd-f527935e2fdf.jpeg)
 
 
-## 🔗Tech Stacks
+##  Tech Stacks
  
 >-  ```NODE JS```
 >- ```EXPRESS JS```
@@ -551,7 +556,7 @@ https://user-images.githubusercontent.com/75598588/181936583-a5adfa45-51f0-4d53-
 >- ```twilio": "^3.80.0```
 >- ```validator": "^13.7.0```
 
-## 🎯Dockerising 
+##  Dockerising 
 
 ```If we  develop anything that needs to ‘live’ somewhere besides our local machine, we know that getting an application up and running on a different machine is no simple task``` 
 ```There are countless considerations to be had, from the very basics of “how do I get my environment variables set” to which runtimes I’ll need and which dependencies those will rely on, not to mention the need to automate the process. It’s simply not feasible for software teams to rely on a manual deploy process anymore.```
@@ -575,7 +580,7 @@ I have also dockerised This application and below are the process how I achieved
 
 
 
-## 🚁 Dployment 
+##  Deployment 
 
 ```I have deployed this project on heroku . The live links of each indivual tasks are provided in their respective sections above ```
 
@@ -596,7 +601,7 @@ I have also dockerised This application and below are the process how I achieved
 ```
 
 
-## 🧷Scalability And Performance Management 
+## Scalability And Performance Management 
 
 While working on this challenge I have paid special attention to make this application error safe ie 
 the application should not hang or break if something goes wrong !
