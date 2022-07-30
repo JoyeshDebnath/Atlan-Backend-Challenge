@@ -150,13 +150,14 @@ I have handled this testcase in a two step process as described below..
 - In second step while Sending the Post request I have setup validation for Income (ie monthly savings cant exceed monthly income), mobile number validation (ie it has to be valid 10 length number) etc. 
 - I have used try catch blocks to handle the errors occurring during validation so that correct response is sent to the Collect totake neccessary actions .
 - I will be fetching the data of the new client from the request body and running through the validations . Depending upon the validation result  required information will be sent to the Collect .  
-#### 🎯Below is the Screenshot of my Schema model 
+
+#### 🎯Below is the demo of the  client Model having data of all validated clients in Collect 
 
 <img width="631" alt="task2_db" src="https://user-images.githubusercontent.com/75598588/181936351-35b2fa50-fa31-4d89-b048-aa6a9043d9d1.PNG">
 
 
-#### 🎯Below is the demo of the  client Model having data of all validated clients in Collect 
 
+#### 🎯Below is the Screenshot of my Schema model 
 
 ``` 
 const clientIncomeSchema = new mongoose.Schema({
