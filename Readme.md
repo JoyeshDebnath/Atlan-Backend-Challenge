@@ -96,6 +96,7 @@ const convertSlangs = async (req, res) => {
 };
 
 ```
+
 #### 💻API reference for Task 1(Convert slangs )
 `REQUEST TYPE: GET`
 
@@ -112,6 +113,7 @@ Endpoint:
 ```for lang query we need to provide the codes like es fro Espaniol , nl for Danish etc Please refer the API doc link provided above for codes  ```
 ### 🎯Task 1 result and outputs 
 
+![task1 SS of db base dapproach ]()
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
@@ -136,9 +138,67 @@ I have handled this testcase in a two step process as described below..
 - I will be fetching the data of the new client from the request body and running through the validations . Depending upon the validation result  required information will be sent to the Collect .  
 #### 🎯Below is the Screenshot of my Schema model 
 ![task2 SS of client model code]()
-#### 🎯Below is the Screenshot of the  client Model having data of all validated clients in Collect 
+#### 🎯Below is the demo of the  client Model having data of all validated clients in Collect 
 
-![task2 ss of the client model ]()
+
+``` 
+const clientIncomeSchema = new mongoose.Schema({
+	clientName: {
+		type: String,
+		required: [true, "Please Provide the Client name!"],
+		maxLength: [50, "Name has to be within 50 chharacters!"],
+		minLength: [3, "Name has to be greater than 3 characters !"],
+	},
+	clientEmail: {
+		type: String,
+		required: [true, "Please Provide the Client Email!"],
+		minLength: [5, "mail has to be greater than 5 characters"],
+		maxLength: [70, "mail cannot be greater than 25 characters "],
+		unique: [true, "Email already Exists!Pick Another One!"],
+		validate: [validator.isEmail, "Please Enter a Valid Email!"],
+	},
+	clientIncomePerMonth: {
+		type: Number,
+		default: 0,
+		required: [true, "Please Enter the Client Income(Per annum)!"],
+	},
+	clientSavingsPerMonth: {
+		type: Number,
+		default: 0,
+		required: [true, "Please Enter the Clinet Savings Per annum"],
+	},
+	clientMobileNum: {
+		type: Number,
+		required: [true, "Please Provide the Client Phone number!"],
+		unique: [true, "Phone number Already taken!"],
+	},
+	clientAddress: {
+		street: {
+			type: String,
+			required: [true, "Please provide the street "],
+		},
+		city: {
+			type: String,
+			required: [true, "Please provide the city !"],
+		},
+		state: {
+			type: String,
+			required: [true, "Please provide the state !"],
+		},
+		country: {
+			type: String,
+			required: [true, "Please provide the country !"],
+		},
+		pinCode: {
+			type: Number,
+			required: [true, "Please provide the address Pin !"],
+		},
+	},
+});
+```
+
+
+
 
 #### 💻Below is the Code of validation middleware ..
 
