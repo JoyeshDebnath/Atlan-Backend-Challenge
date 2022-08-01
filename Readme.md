@@ -117,7 +117,7 @@ Endpoint:
 | `lang` |  the language in which you want to convert the word |
 
 ```for lang query we need to provide the codes like es fro Espaniol , nl for Danish etc Please refer the API doc link provided above for codes  ```
-### 🎯Task 1 result and outputs 
+### 🎯Task 1 Demo:
 
 
 
